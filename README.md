@@ -7,7 +7,7 @@ The project demonstrates how computer vision techniques can automatically detect
 
 📌**Key Features:**
 ---
-1.**Real-Time Video Processing**-->
+1.**Real-Time Video Processing:😎**
 
 The system reads frames continuously from:
 
@@ -15,7 +15,7 @@ A pre-recorded video, OR from webcam.
 
 Each frame is processed instantly to detect objects.
  
-**How To open our laptop cam for check?**
+**How To open our laptop camera for check?🤔**
 
 There is nothing to worry about ,it here when we try to read the **cv2.VideoCapture()** if we just write this then it will fail to access the video as no source is given and as you can see in my code.
 
@@ -28,7 +28,7 @@ if not cap.isOpened():
 
 Meaning: The cap can't be openede now so this make this statemebnt true and it will access your webcam.
 
-**2. Object Detection Using Pre-Trained Model:**
+**2. Object Detection Using Pre-Trained Model:👌**
 
 My code uses model.detect() to find objects,
 
@@ -61,11 +61,11 @@ cv2.putText()--> writes label + confidence
 Objects appear marked in red for clarity.
 **BGR**--->
 
-**(255,0,0)---->Blue**
+**(255,0,0)---->Blue🔵**
 
-**(0,255,0)---->Green**
+**(0,255,0)---->Green🟢**
 
-**(0,0,255)---->Red**
+**(0,0,255)---->Red🔴**
 
 **4. Live Display Window:**
 
@@ -77,16 +77,16 @@ cv2.imshow("Object Detection in Video", frame)
 My model displays annotated frames in a pop-up window.
 It updates continuously until the user presses Q.
 
-**5.Image detection:**
+
+
+**5.Image detection:😎**
 
 It can also Implemented in image as i show in my code,
 using **cv2.rectangle()** ,it can show which one is cat,person or any keyword present in the coco text.
 
 ## 🔗 Links:
---
-**Link1:**
 
-https://github.com/opencv/opencv/wiki/TensorFlow-Object-Detection-API
+**Link1:** https://github.com/opencv/opencv/wiki/TensorFlow-Object-Detection-API
 --------> **official opencv github account**,froze_interface_graph
 
 **Link2:** 
@@ -97,7 +97,7 @@ https://github.com/pjreddie/darknet/blob/master/data/coco.names ------>coco data
 
 **📌 Required Libraries:**
 --
-Install the following Python libraries before running the project:
+**Install the following Python libraries before running the project:**
 
 pip install opencv-python
 
@@ -107,7 +107,9 @@ pip install numpy
 
 **or**
 
-**You can use:**  pip install numpy matplotlib opencv-python
+**You can use:** 
+
+pip install numpy matplotlib opencv-python
 
 
 
