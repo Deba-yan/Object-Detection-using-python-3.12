@@ -1,6 +1,7 @@
 
 # OBJECT DETECTION 
 📌**Project overview:**
+
 This project focuses on developing a real-time object detection system using OpenCV and a pre-trained object detection model. The system captures video frames either from a video file or a live webcam feed, processes each frame, and identifies various objects within the scene.
 
 The project demonstrates how computer vision techniques can automatically detect and classify objects in real time, making it useful for applications such as surveillance, robotics, traffic monitoring.
